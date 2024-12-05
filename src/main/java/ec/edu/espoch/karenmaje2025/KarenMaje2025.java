@@ -11,6 +11,6 @@ package ec.edu.espoch.karenmaje2025;
 public class KarenMaje2025 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }

@@ -14,7 +14,7 @@ public class Productos {
     public float precio;
     public Categoria categoria;
     private static final double IVA = 0.12;
-  
+    public double calcularPrecioConIVA;
             
  
 
@@ -49,8 +49,8 @@ public class Productos {
     
     public double calcularPrecioConIVA() {
         return precio * (1 + IVA);
-    public String toString() {
-        return "Producto: " + nombreProd + ", Precio: " + precio + ", Categoria: " + categoria.getNombre();
+  
+    
     }
             
 }
